@@ -20,6 +20,7 @@ func NewPromtailInputConfig(operatorID string) *PromtailInputConfig {
 	}
 }
 
+
 // PromtailInputConfig is the configuration of a journald input operator
 type PromtailInputConfig struct {
 	helper.InputConfig `mapstructure:",squash" yaml:",inline"`
